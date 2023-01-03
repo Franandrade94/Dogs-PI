@@ -1,0 +1,31 @@
+.SearchBar{
+    position: absolute;
+    text-align: center;
+    margin-left: 75%;
+    margin-right: auto;
+    margin-top: -14%;
+    left: 0;
+    right: 0;
+    
+}
+
+.SearchText{
+ margin-right: 2%;
+ outline: none;
+ height: 3vh;
+}
+
+
+.Search-Icon{
+    position: absolute;
+    text-align: center;
+    margin-left: 76%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: -8.9%;
+    border: none;
+    background-color:  rgb(255, 218, 124);
+    border-radius: 20px;
+    padding: 10px 15px;
+}

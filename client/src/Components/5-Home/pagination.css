@@ -1,0 +1,32 @@
+.PaginationDiv{
+    margin-top: -4%;   
+}
+
+.prev{
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.464);
+}
+
+.prev:hover{
+    background-color: rgb(210, 210, 210);
+    color: rgb(50, 50, 50);
+}
+
+.next{
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-left: 1%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.464);
+}
+
+.next:hover{
+    background-color: rgb(210, 210, 210);
+    color: rgb(50, 50, 50);
+}

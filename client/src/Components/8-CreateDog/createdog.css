@@ -1,0 +1,201 @@
+.CreateDog{
+    height: 77.8vh;
+    overflow: hidden;
+}
+
+.BoneBack{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 68%;
+    width: 80%;
+    margin-top: 2.3%;
+    border-radius: 20px;
+    
+}
+
+.CloseDetail{
+    position: absolute;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 1%;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.FormCard{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 7%;
+    
+}
+
+.CreateContainer{
+    position: absolute;
+    margin-right: 27%;
+    margin-left:28%;
+    margin-top: -20%;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-gap:20px;
+}
+
+.ImageInput{
+    outline: none;
+}
+
+.name{
+    outline: none;
+}
+
+.AsteriscoName{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 24.5%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -6%;
+}
+
+.MinHeight{
+    outline: none;
+}
+
+.AsteriscoMinHeight{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 93%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -6%;
+}
+
+.MaxHeight{
+    outline: none;
+}
+
+.AsteriscoMaxHeight{
+    font-size: 20px;
+    position: absolute;
+    margin-left: -43%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -6%;
+}
+
+.MinWeight{
+    outline: none;
+}
+
+.AsteriscoMinWeight{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 24.5%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -6%;
+}
+
+.MaxWeight{
+    outline: none;
+}
+
+.AsteriscoMaxWeight{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 93%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -6%;
+}
+
+.MinLifeSpan{
+    outline: none;
+}
+
+.MaxLifeSpan{
+    outline: none;
+}
+
+.newTemperament{
+    outline: none;
+}
+
+.SelectTemp{
+     margin-left: 20%;  
+}
+
+.h4Create{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top: -36%;
+    font-size: 20px;
+}
+
+.SelectTemp h5{
+    font-size: 15px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 0%;
+}
+
+.SelectTemp{
+    margin-left: 6%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.button-create{
+    position: absolute;
+    text-align: center;
+    margin-left: 45.5%;
+    margin-right: auto;
+    margin-top: -2%;
+    left: 0;
+    right: 0;
+    border: none;
+    font-size: 17px;
+    background-color: rgb(255, 218, 124);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.button-create:hover{
+    background-color: rgb(255, 209, 92);
+    color: rgb(75, 75, 75);
+}

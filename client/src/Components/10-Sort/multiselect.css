@@ -1,0 +1,9 @@
+.optionContainer li:hover {
+    background: rgb(255, 209, 92);
+    color: black;
+}
+
+.optionContainer .highlight{
+    background: white;
+    color: black;
+}

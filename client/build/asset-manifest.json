@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2970b0b8.chunk.css",
+    "main.js": "/static/js/main.3b00101e.chunk.js",
+    "main.js.map": "/static/js/main.3b00101e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.541b59b8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.541b59b8.js.map",
+    "static/js/2.c6dc7e15.chunk.js": "/static/js/2.c6dc7e15.chunk.js",
+    "static/js/2.c6dc7e15.chunk.js.map": "/static/js/2.c6dc7e15.chunk.js.map",
+    "static/js/3.28cff087.chunk.js": "/static/js/3.28cff087.chunk.js",
+    "static/js/3.28cff087.chunk.js.map": "/static/js/3.28cff087.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2970b0b8.chunk.css.map": "/static/css/main.2970b0b8.chunk.css.map",
+    "static/js/2.c6dc7e15.chunk.js.LICENSE.txt": "/static/js/2.c6dc7e15.chunk.js.LICENSE.txt",
+    "static/media/landingpage.css": "/static/media/LandingBack2.f2f2a891.png",
+    "static/media/Logo.09e93ef5.png": "/static/media/Logo.09e93ef5.png",
+    "static/media/App.css": "/static/media/MYRIADPRO-REGULAR.6c518fcd.OTF"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.541b59b8.js",
+    "static/js/2.c6dc7e15.chunk.js",
+    "static/css/main.2970b0b8.chunk.css",
+    "static/js/main.3b00101e.chunk.js"
+  ]
+}

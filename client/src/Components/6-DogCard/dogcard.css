@@ -1,0 +1,167 @@
+.dogcard{
+    
+    margin-top: 10%;
+    margin-left: 32%;
+    margin-bottom: 3%;
+    width: 38vw;
+    height: 48vh;
+
+}
+
+.middle{
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -0%);
+}
+
+.card {
+    cursor: pointer;
+    height: 46.3vh;
+    width: 38vw;
+}
+
+.front, .back {
+    width: 50vw;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .4s linear;
+}
+
+.front{
+    background: url(../../Images/BackBone6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+    width: 37vw;
+    height: 45.7vh;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.imgDog{
+    position: absolute;
+    text-align:left;
+    margin-left: 15%;
+    margin-top: 13.5%;
+    left: 0;
+    right: 0;
+    height: 22vh;
+    width: 10vw;
+    border: none;
+    border-radius: 50%;
+}
+
+.namemargin{
+    position: absolute;
+    text-align: center;
+    margin-left: 43%;
+    margin-right: 20%;
+    margin-top: 20%;
+    left: 0;
+    right: 0;
+}
+
+.namecard{
+    font-size: 19px;
+}
+
+.temperament-Font{
+
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    left: 10%;
+    right: 10%;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.temperament{
+    margin-top:1%;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.back{
+    background: url(../../Images/BackBone6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+    width: 37vw;
+    height: 45.7vh;
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.weightBack{
+    position: absolute;
+    margin-left: -15%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 24%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.weightP{
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -2.7%;
+    margin-left: 20%;
+}
+
+
+.buttonPosition{
+    position:fixed;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 31.5%;
+    left: 0;
+    right: 0;
+    
+}
+
+.buttondetails{
+    padding: 5px;
+    border-radius: 3pc;
+    border: none;
+    background: none;
+}
+
+.ButtonImgMore{
+    margin-left: -120%;
+    width: 4.5vw;
+    height: 7.5vh;
+}
+
+.More{
+    margin-left: -120%;
+    margin-top: -51%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card:hover > .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover > .back {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.notfoundImg{
+    overflow: hidden;
+    margin-left: 30%;
+    margin-top: 8%;
+    padding: 0px 50%;
+    text-align: center;
+    height: 52vh;   
+}

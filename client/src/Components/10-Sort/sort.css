@@ -1,0 +1,21 @@
+.nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0px 45px 0px;
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.254);
+    z-index: 5;
+}
+
+.nav button{
+    font-size: 13px;
+    background-color: rgb(255, 218, 124);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.nav button:hover{
+    background-color: rgb(255, 209, 92);
+    color: rgb(75, 75, 75);   
+}

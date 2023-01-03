@@ -1,0 +1,14 @@
+.Logo-div{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 7%;
+    margin-top: 1%;
+}
+
+
+.Logo{
+    margin-bottom: -8%;    
+    margin-left: -20px;  
+    width: 18%;
+}
+

@@ -1,0 +1,156 @@
+.DogDetail{
+    overflow: hidden;
+}
+
+.cardDetail{
+    height: 77.8vh;
+}
+
+.frontbackgroundImg{
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    left: 0;
+    right: 0;
+    width: 60vw;
+    height: 75.5vh;
+    z-index: -1;
+}
+
+.detailImg{
+    position: absolute;
+    text-align: center;
+    margin-left: 26%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 8.5%;
+    height: 40vh ;
+    width: 20vw ;
+    border: none;
+    border-radius: 50%;
+}
+
+.DetailContent{
+    position: absolute;
+    text-align: center;
+    margin-left: 46%;
+    margin-right: 30%;
+    left: 0;
+    right: 0;
+    margin-top: 5%;
+}
+
+.DetailName{
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.FrontWeightDetails{
+    position: absolute;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 51.5%;
+    font-size: 19px;
+}
+
+.FrontHeightDetails{
+    position: absolute;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 62.5%;
+    font-size: 19px;
+}
+
+.frontbutton{
+    position: absolute;
+    text-align: center;
+    border: none;
+    background: none;
+    margin-top: 29.5%;
+    margin-left: 17%;
+    z-index: 5;
+}
+
+.frontarrow{
+    width:2.5vw;
+    height: 3vh;
+    z-index: 5;
+}
+
+.Buttonclose{
+    position: absolute;
+    text-align: center;
+    margin-left: 41%;
+    margin-right: auto;
+    margin-top: 5%;
+    left: 0;
+    right: 0;
+}
+
+.close{
+    border: none;
+    background: none;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(74, 72, 69);
+}
+
+.infobackdetail{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.temperamentDetails{
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 35.5%;
+    font-size: 20px;
+}
+
+.LifeDetails{
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 22.5%;
+    font-size: 20px;
+}
+
+.backbutton{
+    position: absolute;
+    text-align: center;
+    border: none;
+    background: none;
+    margin-top: 12.5%;
+    margin-left: -22.5%;
+    z-index: 5;
+}
+
+.backarrow{
+    width:2.5vw;
+    height: 3vh;
+    z-index: 5;
+}
