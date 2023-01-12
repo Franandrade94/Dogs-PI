@@ -40,7 +40,7 @@ Temperament.belongsToMany(Dog, {
   through: "dog_temperament"
 });
 */
-
+//muchos a muchos
 Dog.hasMany(Temperament);
 
 sequelize.models.Dog = Dog
