@@ -31,6 +31,7 @@ export const searchAllDogs = (v) => {
     }
 };
 
+
 export const getDogDetail = (id) => {
     return (dispatch) => {
         return axios.get(`${MY_API}/dogs/${id}`)
