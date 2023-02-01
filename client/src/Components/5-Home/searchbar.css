@@ -3,7 +3,7 @@
     text-align: center;
     margin-left: 75%;
     margin-right: auto;
-    margin-top: -14%;
+    margin-top: -14.1%;
     left: 0;
     right: 0;
     
@@ -28,4 +28,9 @@
     background-color:  rgb(255, 218, 124);
     border-radius: 20px;
     padding: 10px 15px;
+}
+
+.Search-Icon:hover{
+    color: rgb(61, 61, 61);
+    background-color:  rgba(250, 199, 71, 0.946);
 }

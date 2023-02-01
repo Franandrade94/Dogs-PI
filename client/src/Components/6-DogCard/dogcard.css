@@ -157,11 +157,22 @@
     transform: perspective(600px) rotateY(0deg);
 }
 
-.notfoundImg{
-    overflow: hidden;
-    margin-left: 30%;
-    margin-top: 8%;
-    padding: 0px 50%;
+.LoadingImg{
     text-align: center;
-    height: 52vh;   
+    left: 0;
+    right: 0;
+    margin-left: 95%;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 41.6vh;   
+}
+
+.NotFoundImg{
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: 89%;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 41.6vh;  
 }

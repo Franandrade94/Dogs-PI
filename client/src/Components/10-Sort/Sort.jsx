@@ -28,7 +28,7 @@ const style = {
     },
 }
 
-export default class Nav extends Component {
+export default class Sort extends Component {
 
     constructor(props) {
         super(props)

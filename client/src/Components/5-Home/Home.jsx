@@ -6,6 +6,7 @@ import { connect } from "react-redux";
 import * as actions from "../../Redux/actions/index"
 import DogCard from "../6-DogCard/DogCard";
 import NotFound from "../../Images/notfound.png"
+import LoadingDog from "../../Videos/Loading.gif"
 
 class Home extends Component {
 
@@ -35,6 +36,8 @@ class Home extends Component {
         this.props.searchAllDogs()
     }
 
+//----------------------SEARCHBAR-------------------------
+
     updateSearchbarValue(evt) {
         let value = evt.target?.value;
         this.setState({
@@ -43,6 +46,9 @@ class Home extends Component {
             offset: 0,
             filter: 'az'
         });
+
+        console.log(value)
+        
     }
 
     handleSearchbar(e) {
@@ -54,7 +60,7 @@ class Home extends Component {
         })
         this.props.searchAllDogs(searchbarValue)
     }
-
+//----------------------PAGINATION-------------------------
     previousPage() {
         let offset = this.state.offset - 1
         if (offset < 0) {
@@ -96,13 +102,20 @@ class Home extends Component {
         return (
             <div className="backHome">
                 <div className="home">
+{
+    //------------------------------SEARCHBAR----------------------------
+}
                     <form className="SearchBar" onSubmit={(e) => this.handleSearchbar(e)}>
-                        <input className="SearchText" type="text" placeholder="Search Dog..." value={this.state.searchbarValue} onChange={(evt) => this.updateSearchbarValue(evt)} />
+                        <input className="SearchText" type="text" placeholder="&#x1f50d; Search Dog..." value={this.state.searchbarValue} onChange={(evt) => this.updateSearchbarValue(evt)} />
                         <div>
                             <input className="Search-Icon" type="submit" value="Search" />
                         </div>
                     </form>
-                    {(this.props.dogs.length === 0) ? <img className="notfoundImg" src={NotFound} alt=""/> : this.props.dogs?.map((dog) => {
+{
+    //------------------------------DOGCARD----------------------------
+}
+
+                    {(this.props.dogs.length === 0) ? <img className="LoadingImg" src={LoadingDog} alt=""/> : (this.state.searchbarValue.length > 0 && this.state.searchbarValue != this.props.dogs) ? <img className="NotFoundImg" src={NotFound} alt=""/> : this.props.dogs?.map((dog) => {
                         return <div className="dogcard" key={dog.id}>
                             <DogCard
                                 id={dog.id}
@@ -114,6 +127,9 @@ class Home extends Component {
                         </div>
                     })}
                 </div>
+{
+    //------------------------------PAGINATION----------------------------
+}
                 <div className="PaginationDiv">
                         <button className="prev" onClick={() => this.previousPage()}>Prev</button>
                         <button className="next" onClick={() => this.nextPage()}>Next</button>

@@ -3,7 +3,7 @@ import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Sort() {
+export default function Nav() {
 
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
     const [menu_class, setMenuClass] = useState("menu hidden")
