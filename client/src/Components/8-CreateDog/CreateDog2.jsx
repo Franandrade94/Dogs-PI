@@ -122,7 +122,11 @@ class CreateDog extends Component {
         return (
             <div className="CreateDog">
                 <div className="BoneBack">
-                    <Link className="CloseDetail" to={"./../home"}>X</Link>
+                <a  href="./../home">
+                        <button className="CloseDetail">
+                            X
+                        </button>
+                    </a>
                     <form className="FormCard" onSubmit={this.enviarDatos}>
 
                         <h4 className="h4Create">Create Your Dog</h4>

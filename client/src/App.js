@@ -9,8 +9,6 @@ import Nav from './Components/3-Nav/Nav';
 import Home from './Components/5-Home/Home';
 import DogDetails from './Components/7-DogDetails/DogDetails';
 import CreateDog2 from './Components/8-CreateDog/CreateDog2';
-import CreateDog from './Components/8-CreateDog/CreateDog';
-
 import Sort from './Components/10-Sort/Sort';
 
 function App() {
@@ -27,8 +25,9 @@ function App() {
         <Route path="/dogs/:id" exact component={Logo2} />
         <Route path="/dogs/:id" exact component={DogDetails} />
 
-        <Route path="/dog/create" exact component={Logo2} />
+        <Route path="/dog/create" exact component={Logo} />
         <Route path="/dog/create" exact component={CreateDog2} />
+        
       </Router>
     </div>
   );

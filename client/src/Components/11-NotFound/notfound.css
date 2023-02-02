@@ -1,0 +1,26 @@
+.Not-Found{
+    padding: 13.1%;
+}
+
+.Not-Found h1 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-top: -9%;
+}
+
+.Not-Found img{
+    height: 25vh;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-top: -3%;
+}

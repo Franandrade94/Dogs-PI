@@ -25,10 +25,18 @@
     margin-top: 1%;
     left: 0;
     right: 0;
+    padding: 2px 8px;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: bolder;
+    background: transparent;
+    border: none;
+    z-index: 20;
+}
+
+.CloseDetail:hover{
+    color: rgb(110, 110, 110);
 }
 
 .FormCard{

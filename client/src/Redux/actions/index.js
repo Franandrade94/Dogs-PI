@@ -29,6 +29,7 @@ export const searchAllDogs = (v) => {
                 payload: { dogs: res.data }
             }))
     }
+    
 };
 
 

@@ -157,22 +157,3 @@
     transform: perspective(600px) rotateY(0deg);
 }
 
-.LoadingImg{
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin-left: 95%;
-    margin-right: auto;
-    margin-top: 5%;
-    height: 41.6vh;   
-}
-
-.NotFoundImg{
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin-left: 89%;
-    margin-right: auto;
-    margin-top: 5%;
-    height: 41.6vh;  
-}

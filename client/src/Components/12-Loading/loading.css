@@ -1,0 +1,14 @@
+.Load{
+    padding: 0.5%;
+    padding-bottom: 2.6%;
+}
+
+.Load img{
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: 0%;
+    margin-right: auto;
+    margin-top: 3%;
+    height: 41.6vh; 
+}

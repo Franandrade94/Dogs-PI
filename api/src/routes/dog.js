@@ -86,7 +86,7 @@ const get_dogs = async ({ res, req }) => {
                 height: { metric: `${dog.minheight} - ${dog.maxheight} ` },
                 weight: { metric: `${dog.minweight} - ${dog.maxweight} ` },
                 life_span: `${dog.minlife_span} - ${dog.maxlife_span} years `,
-                image: { url: IMAGE_DOG_DEFAULT }
+                image: { url:`${dog.image}`}
             }
         }))
     if (name != undefined) {

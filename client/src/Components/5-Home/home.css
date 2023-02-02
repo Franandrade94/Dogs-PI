@@ -5,9 +5,12 @@
     background: url(../../Images/BACKGROUND5.png);
     background-repeat: repeat;
     background-size: auto;
+    
+}
+
+.dogCard-Container{
     display: grid;
     grid-template-columns: repeat(2, 0.4fr);
     grid-gap:0px; 
     padding-bottom: 4.3%;
 }
-

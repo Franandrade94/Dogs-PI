@@ -14,6 +14,10 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
+    image:{
+      type: DataTypes.BLOB("long"),
+      allowNull: true,
+    },
     minheight: {
       type: DataTypes.FLOAT,
       allowNull: false,
